@@ -5,14 +5,29 @@ Colors
 
 #FFFDD0
 
+#FFF200
 */
 
+body {
+    background-color: #600000 ;
+    color: #FFFDD0;
+}
+
 .myNav {
-    background-color: #411d31 !important;
+    background-color: #FFF200 !important;
     
 }
 
 .myNav, .myNav a, .myNav li, .myNav span {
-    color: #30e1b9 !important;
-    border-color: #30e1b9;
+    color: black !important;
+    border-color: black;
+}
+
+header div h1 {
+    text-align: center;
+}
+header {
+    align-items: center;
+    height: 1000px;
+    background-image: url(../images/hero_imresizer.jpg);
 }
