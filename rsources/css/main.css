@@ -7,6 +7,11 @@ Colors
 
 #FFF200
 */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+* {
+    font-family: "Pirata One", system-ui !important;
+}
 
 body {
     background-color: #600000 ;
@@ -26,8 +31,24 @@ body {
 header div h1 {
     text-align: center;
 }
+
+header div {
+    background-color: #60000073;
+    border-radius: 3em;
+    margin: auto;
+    width: 500px;
+}
+
 header {
+    display: flex;
+    justify-content: center; 
     align-items: center;
-    height: 1000px;
+    height: 500px;
     background-image: url(../images/hero_imresizer.jpg);
+    background-position: 35% 65%;
+}
+
+p {
+    margin: 10%;
+    font-size: 20px;
 }
