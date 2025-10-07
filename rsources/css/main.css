@@ -52,3 +52,8 @@ p {
     margin: 10%;
     font-size: 20px;
 }
+
+img {
+    width:250px;
+    margin: 2%;
+}
